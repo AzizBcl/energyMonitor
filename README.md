@@ -1,7 +1,7 @@
 # energyMonitor
 Note : stills in BETA version. 
 
-EnergyMonitor is a spring boot project using RAPL interface to estimate energy Consumption of CPU, Memory...
+EnergyMonitor is a spring boot project using RAPL interface to estimate energy Consumption on Linux Physical machine.
 You'll need to modify application.properties to change the parameters.
 
 
