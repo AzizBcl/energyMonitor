@@ -23,7 +23,7 @@ energymonitor:
 
 # How to call it : 
 
-@GetMapping("/getEnergy")
+	@GetMapping("/getEnergy")
 	 public Object getEnergy (@RequestParam(required = false) Instant startTime, 
 			 				  @RequestParam(required = false) Instant endTime,
 			 				 @RequestParam(required = false, defaultValue ="10") int interval,
@@ -39,7 +39,7 @@ energymonitor:
 #              OR
               
 
-@GetMapping("/getEnergy_fromDisk")
+	@GetMapping("/getEnergy_fromDisk")
 	 public Object getEnergy_fromDisk (@RequestParam(required = false) Instant startTime, 
 			 				  @RequestParam(required = false) Instant endTime,
 			 				 @RequestParam(required = false, defaultValue ="10") int interval,
