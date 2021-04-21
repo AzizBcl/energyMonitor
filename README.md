@@ -9,13 +9,13 @@ You'll need to modify application.properties to change the parameters.
 
 # you can use it with : https://hub.docker.com/repository/docker/azizbcl/energymonitor
 
-energymonitor:
-  image: azizbcl/energymonitor:latest
-  container_name: energymonitor
-  restart: always
-  ports:
-    - "9090:9091"
-  command: --server.port=9090 --log.path=/ --PKG0.enabled=true --PKG0.core.enabled=false --MAX_POINTS= 120 --fixedDelay.in.milliseconds=1000 --PKG0.uncore.enabled=false --PKG1.enabled=false --PKG1.core.enabled=false --PKG1.uncore.enabled=false --DRAM.enabled=true --persistance.disk.enabled=true
+	energymonitor:
+ 	 image: azizbcl/energymonitor:latest
+  	container_name: energymonitor
+  	restart: always
+  	ports:
+    	- "9090:9091"
+  	command: --server.port=9090 --log.path=/ --PKG0.enabled=true --PKG0.core.enabled=false --MAX_POINTS= 120 --fixedDelay.in.milliseconds=1000 --PKG0.uncore.enabled=false --PKG1.enabled=false --PKG1.core.enabled=false --PKG1.uncore.enabled=false --DRAM.enabled=true --persistance.disk.enabled=true
 
 
 
