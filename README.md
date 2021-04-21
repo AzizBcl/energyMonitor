@@ -7,7 +7,7 @@ You'll need to modify application.properties to change the parameters.
 
                 
 
-you can use it with : https://hub.docker.com/repository/docker/azizbcl/energymonitor
+# you can use it with : https://hub.docker.com/repository/docker/azizbcl/energymonitor
 
 energymonitor:
   image: azizbcl/energymonitor:latest
